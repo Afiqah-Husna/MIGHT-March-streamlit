@@ -28,7 +28,7 @@ st.subheader('User Input parameters')
 st.write(df)
 
 iris = pd.read_csv("https://raw.githubusercontent.com/Afiqah-Husna/MIGHT-March-streamlit/main/Iris.csv)
-X = iris['SepalLength',	'SepalWidth',	'PetalLength',	'PetalWidth']
+X = iris['SepalLengthCm',	'SepalWidthCm',	'PetalLengthCm',	'PetalWidthCm']
 Y = iris['Species']
 
 clf = RandomForestClassifier()
